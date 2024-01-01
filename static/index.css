@@ -1,0 +1,40 @@
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+body {
+  background-color: black;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("/static/roboto.ttf");
+}
+* {
+  font-family: "Roboto";
+  color: white
+}
+textarea, button {
+  color: black;
+  border: none;
+  background-color: grey;
+  padding: 5px;
+}
+#window {
+  border: 3px solid white;
+  padding: 10px;
+}
+#messages {
+  margin-top: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.message {
+  margin-bottom: 10px;
+}
+.legal {
+  font-size: 10px;
+  color: grey;
+}
+.legal a {
+  color: grey;
+}
